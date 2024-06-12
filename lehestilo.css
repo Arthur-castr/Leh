@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+
+    --cor0:#e0e7a3;
+    
+    --fonte-padrao: Arial,Verdana,Helvetica,sans-serif;
+    --fonte-destaque:'Bebas Neue', sans-serif;
+    --fonte-titulos:'Pacifico',sans-serif;
+   
+
+}
+body{
+    background-color: rgb(165, 119, 209);
+}
+
+header{
+    margin: 0px;
+
+    padding-top: 50px;
+
+    
+
+    text-align: center;
+    
+
+    min-width: 150px;
+
+}
+main{
+    justify-content:center;
+    
+    
+    background-color: white;
+    
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.404);
+
+    padding:20px;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+
+    
+}
+img{
+    text-align: center;
+}
+h1{
+    font-family: var(--fonte-titulos);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
+}
+main h2{
+    font-weight: normal;
+    font-family:var(--fonte-titulos);
+    background-image: linear-gradient(to right,var(--cor0),transparent);
+    color: rgba(0, 0, 0, 0.644);
+    margin: 0px;
+    text-shadow: 2px 2px 0px rgba(87, 85, 85, 0.247);
+}
+p{
+    font-family: var(--fonte-destaque);
+    color:  rgb(165, 119, 209);
+    text-shadow: 1px 1px 0px rgba(37, 37, 37, 0.274);
+}
+p#piada{
+    color:#1b1b19;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.329);
+    
+}
+p#mençao{
+    color: rgba(129, 57, 197, 0.61);
+};
