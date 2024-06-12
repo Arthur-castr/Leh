@@ -15,9 +15,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
         :root{
-
             --cor0:#e0e7a3;
-            
             --fonte-padrao: Arial,Verdana,Helvetica,sans-serif;
             --fonte-destaque:'Bebas Neue', sans-serif;
             --fonte-titulos:'Pacifico',sans-serif;
